@@ -1,0 +1,47 @@
+{
+  "name": "favicon-color",
+  "version": "1.0.0",
+  "description": "Set a page's favicon to a solid color",
+  "main": "index.js",
+  "scripts": {
+    "browser-test": "browserify test/test.js | testling",
+    "test": "jshint index.js test/test.js && jscs index.js test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMTegner/favicon-color"
+  },
+  "keywords": [
+    "favicon",
+    "favico",
+    "solid",
+    "color",
+    "icon"
+  ],
+  "author": "Christian Tegnér",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMTegner/favicon-color/issues"
+  },
+  "homepage": "https://github.com/CMTegner/favicon-color",
+  "devDependencies": {
+    "browserify": "^5.10.1",
+    "jscs": "^1.5.9",
+    "jshint": "^2.5.4",
+    "tape": "^2.14.0",
+    "testling": "^1.7.0"
+  },
+  "testling": {
+    "files": "test/test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/20", "chrome/latest",
+      "ff/3.5..4", "ff/latest",
+      "safari/4..latest",
+      "opera/10..12", "opera/latest",
+      "iphone/latest",
+      "ipad/latest",
+      "android-browser/latest"
+    ]
+  }
+}
