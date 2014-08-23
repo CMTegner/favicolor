@@ -1,5 +1,5 @@
 {
-  "name": "favicon-color",
+  "name": "favicolor",
   "version": "1.0.0",
   "description": "Set a page's favicon to a solid color",
   "main": "index.js",
@@ -9,9 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CMTegner/favicon-color"
+    "url": "https://github.com/CMTegner/favicolor"
   },
   "keywords": [
+    "favicon-color",
     "favicon",
     "favico",
     "solid",
@@ -21,9 +22,9 @@
   "author": "Christian Tegnér",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CMTegner/favicon-color/issues"
+    "url": "https://github.com/CMTegner/favicolor/issues"
   },
-  "homepage": "https://github.com/CMTegner/favicon-color",
+  "homepage": "https://github.com/CMTegner/favicolor",
   "devDependencies": {
     "browserify": "^5.10.1",
     "jscs": "^1.5.9",
