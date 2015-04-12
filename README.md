@@ -35,6 +35,8 @@ $ npm install favicolor
 var favicolor = require('favicolor');
 ```
 
+### favicolor(icon, colorString)
+### favicolor(icon, rgbArray)
 ### favicolor(icon, red, green, blue)
 
 `icon` is the favicon DOM element. The color can be specified by passing the RGB values as individual arguments, by passing an array containing the RGB values as the second argument, or by passing a string as the second argument. In the latter case you are free to use any valid color string, e.g. 'red', '#ff0000', 'rgb(255, 0, 0)', etc. *Note:* This method temporarily removes the specified element to work around a quirk in Firefox.
