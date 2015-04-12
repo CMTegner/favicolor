@@ -1,6 +1,6 @@
 {
   "name": "favicolor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set a page's favicon to a solid color",
   "main": "index.js",
   "scripts": {
@@ -36,10 +36,13 @@
     "files": "test/test.js",
     "browsers": [
       "ie/6..latest",
-      "chrome/20", "chrome/latest",
-      "ff/3.5..4", "ff/latest",
+      "chrome/20",
+      "chrome/latest",
+      "ff/3.5..4",
+      "ff/latest",
       "safari/4..latest",
-      "opera/10..12", "opera/latest",
+      "opera/10..12",
+      "opera/latest",
       "iphone/latest",
       "ipad/latest",
       "android-browser/latest"
