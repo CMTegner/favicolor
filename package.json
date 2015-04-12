@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/CMTegner/favicolor/issues"
   },
-  "homepage": "https://github.com/CMTegner/favicolor",
+  "homepage": "http://favicolor.ima.computer",
   "devDependencies": {
     "browserify": "^5.10.1",
     "jscs": "^1.5.9",

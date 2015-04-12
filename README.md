@@ -1,6 +1,6 @@
 # favicolor
 
-Set a page's favicon to a solid color
+Set a page's favicon to a solid color. [favicolor.ima.computer](http://favicolor.ima.computer)
 
 [![Travis CI Build Status](https://travis-ci.org/CMTegner/favicolor.svg)](http://travis-ci.org/CMTegner/favicolor) [![Dependency Status](https://david-dm.org/CMTegner/favicolor/status.svg)](https://david-dm.org/CMTegner/favicolor)
 
